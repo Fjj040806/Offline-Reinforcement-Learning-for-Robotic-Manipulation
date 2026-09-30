@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+checkpoints/*.pt
+results/*.json
+results/*.csv
+results/*.png
+wandb/
+*.egg-info/
+dist/
+build/
