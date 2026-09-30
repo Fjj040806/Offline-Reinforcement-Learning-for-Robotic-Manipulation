@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "offline-rl-pusht"
+version = "0.1.0"
+description = "Offline RL on PushT: V0.1 data pipeline and Behavior Cloning baseline."
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = {text = "MIT"}
+dependencies = [
+  "torch>=2.2",
+  "numpy>=1.26",
+  "pandas>=2.1",
+  "matplotlib>=3.8",
+  "datasets>=3.0",
+  "huggingface-hub>=0.24",
+  "pyyaml>=6.0",
+  "tqdm>=4.66",
+  "gymnasium>=0.29.1",
+  "gym-pusht>=0.1.6",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "jupyterlab>=4.0",
+  "ipykernel>=6.29",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
