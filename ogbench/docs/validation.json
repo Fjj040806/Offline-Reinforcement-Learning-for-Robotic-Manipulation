@@ -1,0 +1,7 @@
+{
+  "dataset_hashes": "All four files match Phase 1 SHA256",
+  "trajectory_subset_sampling": "10000 samples checked for each of 25% and 50% data, no cross-boundary goals",
+  "inference_weight_load": "HIQL loaded optimizer-free weights and ran 5 separate probe episodes at reset seed 30000; not included in core statistics",
+  "browser_checks": "All 90 selector combinations, playback, scrubbing, camera reset, download and desktop/mobile overflow checks passed",
+  "artifact_tests": "5 tests passed: core/ablation completeness, evaluation consistency, subset identity, replay validity, finite training metrics"
+}

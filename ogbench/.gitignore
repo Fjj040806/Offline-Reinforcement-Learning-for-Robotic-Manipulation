@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+data/
+ogbench-data/
+results/*.log
+ablations/*/run.log
+results/*/agent.msgpack
+ablations/*/agent.msgpack
+**/.run.lock
+experiments/

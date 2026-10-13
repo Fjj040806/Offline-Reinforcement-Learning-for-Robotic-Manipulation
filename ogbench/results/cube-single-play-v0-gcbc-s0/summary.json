@@ -1,0 +1,20 @@
+{
+  "algorithm": "gcbc",
+  "dataset": "cube-single-play-v0",
+  "seed": 0,
+  "steps": 20000,
+  "episodes": 250,
+  "successes": 2,
+  "success_rate": 0.008,
+  "per_task": {
+    "1": 0.02,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.02,
+    "5": 0.0
+  },
+  "total_seconds": 122.13583135604858,
+  "devices": [
+    "cpu:0"
+  ]
+}

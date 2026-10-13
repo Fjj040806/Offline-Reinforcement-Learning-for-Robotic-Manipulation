@@ -1,0 +1,25 @@
+{
+  "algorithm": "hiql",
+  "dataset": "cube-single-play-v0",
+  "seed": 2,
+  "steps": 20000,
+  "episodes": 250,
+  "successes": 13,
+  "success_rate": 0.052,
+  "per_task": {
+    "1": 0.06,
+    "2": 0.02,
+    "3": 0.14,
+    "4": 0.02,
+    "5": 0.02
+  },
+  "total_seconds": 343.58214020729065,
+  "devices": [
+    "cpu:0"
+  ],
+  "fraction": 1.0,
+  "subgoal_steps": 10,
+  "reset_start": 10000,
+  "network_width": 128,
+  "batch_size": 256
+}
