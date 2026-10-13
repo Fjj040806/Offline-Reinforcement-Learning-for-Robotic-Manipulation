@@ -2,9 +2,9 @@
 
 A reproducible, interactive **state-based simulation study** comparing GCBC, GCIQL and HIQL on OGBench Cube Single / Double. This project adds an experiment harness, traceable evaluations, ablations and a browser replay explorer around pinned upstream algorithm implementations.
 
-[Open interactive replay](https://raw.githack.com/Fjj040806/Offline-Reinforcement-Learning-for-Robotic-Manipulation/main/ogbench/docs/index.html) · [Results and limitations](docs/REPORT.md) · [Mathematical objectives](docs/METHODS.md) · [Machine-readable evidence](docs/results.json) · [Resume bullets](docs/RESUME.md)
+[Open interactive preview (owner-only)](https://fjj-robot-learning-lab.jauntycup66.chatgpt.site) · [Results and limitations](docs/REPORT.md) · [Mathematical objectives](docs/METHODS.md) · [Machine-readable evidence](docs/results.json) · [Resume bullets](docs/RESUME.md)
 
-The browser page is a self-contained HTML file. It can also be downloaded and opened locally. It visualizes recorded states; it does not run a live robot policy or MuJoCo in JavaScript.
+The hosted preview is currently owner-private. The browser page is a self-contained HTML file. It can also be downloaded and opened locally. It visualizes recorded states; it does not run a live robot policy or MuJoCo in JavaScript.
 
 ## What is included
 

@@ -2,7 +2,7 @@
 
 ## New: OGBench Goal-conditioned Offline RL — V1.0
 
-[Open interactive demo](https://raw.githack.com/Fjj040806/Offline-Reinforcement-Learning-for-Robotic-Manipulation/main/ogbench/docs/index.html) · [Project code and reproduction](ogbench/README.md) · [Measured results and limitations](ogbench/docs/REPORT.md)
+[Open interactive preview (owner-only)](https://fjj-robot-learning-lab.jauntycup66.chatgpt.site) · [Project code and reproduction](ogbench/README.md) · [Measured results and limitations](ogbench/docs/REPORT.md)
 
 The new `ogbench/` project compares GCBC, GCIQL and HIQL on Cube Single and Cube Double: 18 core runs, 4,500 core evaluation episodes, 24 ablation evaluations, optimizer-free model weights and an interactive trajectory explorer. The browser view replays real evaluations; it is not a live simulator. This is a reduced-budget CPU study, and measured success rates remain low.
 
